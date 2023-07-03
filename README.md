@@ -18,6 +18,8 @@ DATABASE
 
 
 ~~~
+Dump.sql available, but you can also create it manually:
+
 CREATE TABLE list (
  	"id" SERIAL PRIMARY KEY,
 	"name" TEXT NOT NULL,
@@ -25,5 +27,5 @@ CREATE TABLE list (
 	"check" BOOLEAN NOT NULL
 );
 
-Config File: src/database/database.js
+Database configuration file: src/database/database.js
 ~~~
